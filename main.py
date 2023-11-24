@@ -1,1 +1,1 @@
-print("this is a python project")
+userinput = input("Enter Year Of Birth: ")
