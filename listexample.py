@@ -15,7 +15,7 @@ def ibubblesort(L):
          if L[position] > L[position+1]:
             L[position], L[position+1] = L[position+1], L[position]
             swapped = True
-
-    return L
-   
-
+            return L
+    
+sortedlist = ibubblesort(L)
+print(sortedlist)
